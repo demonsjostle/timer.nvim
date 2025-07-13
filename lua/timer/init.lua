@@ -10,7 +10,7 @@ function M.start(duration_ms)
 end
 
 function M.setup()
-	vim.keymap.set("n", "<leader>ut", function()
+	vim.keymap.set("n", "<leader>ct", function()
 		local Input = require("nui.input")
 		local ui = vim.api.nvim_list_uis()[1]
 		local w, h = 30, 1
